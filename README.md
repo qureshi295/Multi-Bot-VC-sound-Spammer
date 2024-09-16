@@ -1,7 +1,7 @@
 # A Discord multi-bot voice channel spammer written in Python. This bot allows multiple bots to join a voice channel and play sounds in a loop.
 
 # CODED BY
-        I added the functionality for multiple bots to play sounds in a loop in voice channels. Also fixed some glitches and improved the bot's performance.
+I added the functionality for multiple bots to play sounds in a loop in voice channels. Also fixed some glitches and improved the bot's performance.
 
 - discord username: qureshihunyawr
 - Discord: [join discord](https://discord.gg/sinnersop)
@@ -22,48 +22,49 @@
 
 2. Update Termux
 
-- pkg update && pkg upgrade
+         pkg update && pkg upgrade
 
 3. Install Python
 
-- pkg install python
+       pkg install python
 
 4. Install FFmpeg
 
-- pkg install ffmpeg
+           pkg install ffmpeg
 
 5. Install Required Python Libraries
 
-- pip install discord.py[voice] asyncio
+        pip install discord.py[voice] asyncio
 
 6. Clone This Repository
 
-- git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+       git clone https://github.com/your-username/your-repo-name.git
+   
+       cd your-repo-name
 
 7. Add Bot Tokens
 
-- nano tokens.py
+       nano tokens.py
 
 - add your bots token in tokens.py 
 
 8. Add Sound Files
 
-- mkdir sounds
+       mkdir sounds
 
 - Download or transfer sound files into the sounds/ directory
 
-- cp /sdcard/Download/sound1.mp3 ~/your-repo-name/sounds/
+        cp /sdcard/Download/sound1.mp3 ~/your-repo-name/sounds/
  
 - You can also use wget to download sound files directly into Termux:
 
-- wget http://example.com/path-to-audio-file/sound1.mp3
+      wget http://example.com/path-to-audio-file/sound1.mp3
 
 9. Run the Bot
 
 - To start the bot, run the following command
 
-- python bot.py
+       python bot.py
 
 # Use the Bot cmds 
 
