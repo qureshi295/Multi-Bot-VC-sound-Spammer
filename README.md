@@ -39,10 +39,12 @@ I added the functionality for multiple bots to play sounds in a loop in voice ch
 6. Clone This Repository
 
        git clone https://github.com/your-username/your-repo-name.git
-   
+
+- after cloning run this command   
+
        cd your-repo-name
 
-7. Add Bot Tokens
+8. Add Bot Tokens
 
        nano tokens.py
 
